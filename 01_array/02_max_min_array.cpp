@@ -14,7 +14,7 @@ int main()
     int arr_size = 6;
 
     int mx = arr[0];
-    int mn = arr[1];
+    int mn = arr[0];
 
     for (int i = 1;i < arr_size;i++) {
         if (arr[i] > mx) mx = arr[i];
